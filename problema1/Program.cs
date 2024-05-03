@@ -1,8 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hola clase, estrucutura de dato");
-
-//Realiza la suma, resta, multiplicación y división de dos números ingresados por el usuario. 
-
 Console.WriteLine("______Operaciones Básicas_____");
 
 double num1, num2, suma, resta, multiplicar, dividir;
@@ -32,23 +28,5 @@ Console.WriteLine("Suma: " + suma);
 Console.WriteLine("Resta:" + resta);
 Console.WriteLine("Multiplicación: " + multiplicar);
 Console.WriteLine("División: " + Math.Round(dividir, 2));
-
-Console.ReadLine();
-
-//2) Solicita un número al usuario y determina si es par o impar. 
-
-Console.WriteLine("______Área de un Triángulo_____");
-
-double baseTriangulo, alturaTriangulo, areaTriangulo;
-
-Console.Write("Base del triángulo: ");
-baseTriangulo = double.Parse(Console.ReadLine());
-
-Console.Write("Altura del triángulo: ");
-alturaTriangulo = double.Parse(Console.ReadLine());
-
-areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
-
-Console.WriteLine("El área del triángulo es: " + areaTriangulo);
 
 Console.ReadLine();
